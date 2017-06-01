@@ -11,7 +11,7 @@ app.post('/api/login', function(req, res){
     var email = req.body.email;
     var senha = req.body.senha;
 
-    if(email != 'rafaelvicio' || senha != '12345'){
+    if(email != 'rafaelvicio@icloud.com' || senha != '12345'){
         setTimeout(function(){
             res.send(401, {
                 'erro': {
